@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+
+}
+
+main {
+    flex: 1;
+    background-color: #c8c89d;
+}
+
+footer {
+    background-color: #333;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header, .carousel {
+    height: 400px; 
+}
+
+.encabezado{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgray;
+}
+.carousel-item img {
+    width: 100%;
+    height: 400px; 
+    object-fit: fill;
+}
+
+section{
+    padding-top: 50px;
+}
